@@ -1,3 +1,4 @@
+[readme.md](https://github.com/jacob-kruger-work/robot_apocalypse/files/9549278/readme.md)
 Robot apocalypse RESTFul API of sorts
 -------------------------------------
 
@@ -45,3 +46,5 @@ These URLs are specified in the urlpatterns collection inside urls.py.
     *   id\_number - ID number to identify which primary record to update.
     *   latitude - floating point value.
     *   longitude - floating point value.
+    ### Running django project
+    Once you have activated your virtual environment, from command line, in main robot_apocalypse folder, the following command will fire up the django RESTFul API listening on port 8000 by default: python manage.py runserver</div>
