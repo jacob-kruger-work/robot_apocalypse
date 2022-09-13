@@ -19,7 +19,7 @@ Then, inside robot\_apocalypse, the following folders are specifically relevant:
 *   robot\_apocalypse - main project folder, with all source code under it -
     *   actions - folder contains sub-modules for robots and survivors, each containing functions that get made use of to work with data, logic, interaction, etc. in those contexts - main actual logic in these files, with forms of commenting included in all code blocks.
     *   apocalypse\_models.py - this file is a slightly tweaked version of something generated using the sqlacodegen module, which generates ORM data models to then be used when working with sqlalchemy to handle data processing.
-    *   db.py - this offers basic connection - engine and session initialisation, as well as a couple of otehr functions use at times when processing data for both input and output.
+    *   db.py - this offers basic connection - engine and session initialisation, as well as a couple of other functions use at times when processing data for both input and output.
     *   settings.py - the standard django settings configuration, but, tweak it slightly to include soem of my own ifno.
     *   sql\_log.py - my code to handle logging un-read exception data to an sqlite3 database, for later review.
     *   urls.py - standard django file that contains the urlpatterns collection, specifying relative paths to interact with specific pieces of code.
